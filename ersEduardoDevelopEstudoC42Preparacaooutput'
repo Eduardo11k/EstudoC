@@ -1,0 +1,33 @@
+[1mdiff --git a/Alfabeto42.c b/Alfabeto42.c[m
+[1mindex 2a8e994..aca4b19 100644[m
+[1m--- a/Alfabeto42.c[m
+[1m+++ b/Alfabeto42.c[m
+[36m@@ -1,6 +1,6 @@[m
+ #include<unistd.h>[m
+ [m
+[31m-void ft_print_alfabeto(){[m
+[32m+[m[32mvoid ft_print_alfabeto(void){[m
+    short c;[m
+    c=96;[m
+    while (++c<123)[m
+[36m@@ -9,17 +9,16 @@[m [mvoid ft_print_alfabeto(){[m
+    }[m
+ }[m
+ [m
+[31m-void ft_print_alfabeto1(){[m
+[32m+[m[32mvoid ft_print_alfabeto1(void){[m
+     short c;[m
+     c='`';[m
+     while (++c<='z')[m
+     {[m
+         write(1,&c,1);[m
+[31m-    }[m
+[31m-    [m
+[32m+[m[32m    }[m[41m   [m
+ }[m
+ [m
+[31m-int  main(){[m
+[32m+[m[32mint  main(void){[m
+     ft_print_alfabeto();[m
+     write(1,"\n",1);[m
+ [m
