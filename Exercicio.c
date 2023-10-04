@@ -21,9 +21,10 @@ int main(){
 
     int *ponteiro;
     ponteiro=&x;//neste instante eu determinei que o meu ponteiro está apontando pro " endereço da memoria x.Ex:8479475""
+    *ponteiro=y;//acessei a variavel <x> que estou apontando e mudei o valor isso por causa do simbolo'*'
+    printf("%d" ,x);
+    printf("\t%d",y);
 
-    *ponteiro=y;//acessei o endereço de 
-    printf("%d %d",x,y);
 
 return 0;
 }
